@@ -1,0 +1,26 @@
+.game {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  height: 80vh;
+  width: 80vw;
+  background-color: purple;
+  font-size: 36px;
+}
+
+button {
+  font-size: 24px;
+  background-color: blueviolet;
+  border: 2px solid black;
+  color: white;
+}
+
+button:hover {
+  cursor:pointer;
+  border: 3px solid blue;
+}
+
+.game-info {
+  margin-left: 20px;
+}

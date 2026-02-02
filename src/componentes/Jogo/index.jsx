@@ -18,6 +18,7 @@ export default function Jogo() {
     setCurrentMove(nextMove);
   }
 
+  //O squares serve como um place holder para o primeiro item do array que se refere ao elemento em si. O segundo parametro é o que realmente é necessario que é o ID. Essa é uma tecnica classica do map.
   const moves = history.map((squares, move) => {
     let description;
     if (move > 0) {
